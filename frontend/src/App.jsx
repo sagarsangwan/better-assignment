@@ -1,12 +1,7 @@
-import { Button } from "@/components/ui/button"
+import Dashboard from "@/pages/Dashboard"
 
 function App() {
-  return (
-    <div className="p-10">
-      <Button>hii</Button>
-      <h1 className="text-3xl font-bold underline">Hello Tailwind</h1>
-    </div>
-  )
+  return <Dashboard />
 }
 
 export default App
